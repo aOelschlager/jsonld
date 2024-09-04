@@ -1,5 +1,5 @@
 {
-    "name": "islandora/jsonld",
+    "name": "drupal/jsonld",
     "description": "JSON-LD serializer for Drupal",
     "type": "drupal-module",
     "license": "GPL-2.0+",
@@ -19,6 +19,9 @@
             "role": "Maintainer"
         }
     ],
+    "replace" : {
+        "islandora/jsonld": "self.version"
+    },
     "require" : {
         "drupal/core": "^10",
         "drupal/hal": "^1||^2",
